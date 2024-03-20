@@ -21,3 +21,6 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+
+/Code For Training the Model/exported_model
+sign_language_dataset

@@ -3,12 +3,19 @@ import "firebase/compat/auth";
 import 'firebase/compat/firestore';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_FIREBASE_API_KEY,
-  authDomain: "sign-language-ai.firebaseapp.com",
-  projectId: "sign-language-ai",
-  storageBucket: "sign-language-ai.appspot.com",
-  messagingSenderId: process.env.REACT_APP_FIREBASE_MESSAGE_ID,
-  appId: process.env.REACT_APP_FIREBASE_APP_ID,
+
+  apiKey: "AIzaSyBtWomUHxl5ZpJjKWGBxsglDulB3u5meRY",
+
+  authDomain: "sign-language-ai-1d7e4.firebaseapp.com",
+
+  projectId: "sign-language-ai-1d7e4",
+
+  storageBucket: "sign-language-ai-1d7e4.appspot.com",
+
+  messagingSenderId: "708724597887",
+
+  appId: "1:708724597887:web:50b07ad5f0f7c91f970b4a"
+
 };
 
 firebase.initializeApp(firebaseConfig);

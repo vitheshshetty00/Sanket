@@ -1,0 +1,75 @@
+[debug] [2024-03-20T15:41:18.299Z] ----------------------------------------------------------------------
+[debug] [2024-03-20T15:41:18.302Z] Command:       /home/vithesh/.nvm/versions/node/v20.11.1/bin/node /home/vithesh/.nvm/versions/node/v20.11.1/bin/firebase init
+[debug] [2024-03-20T15:41:18.302Z] CLI Version:   13.5.2
+[debug] [2024-03-20T15:41:18.302Z] Platform:      linux
+[debug] [2024-03-20T15:41:18.303Z] Node Version:  v20.11.1
+[debug] [2024-03-20T15:41:18.303Z] Time:          Wed Mar 20 2024 21:11:18 GMT+0530 (India Standard Time)
+[debug] [2024-03-20T15:41:18.303Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-03-20T15:41:18.388Z] Object ".storage" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-03-20T15:41:18.388Z] Field ".storage" in "firebase.json" is possibly invalid: should be array
+[debug] [2024-03-20T15:41:18.389Z] Field ".storage" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[debug] [2024-03-20T15:41:18.392Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-03-20T15:41:18.393Z] > authorizing via signed-in user (vitheshshetty23@gmail.com)
+[debug] [2024-03-20T15:41:18.394Z] Object ".storage" in "firebase.json" has unknown property: {"additionalProperty":"headers"}
+[debug] [2024-03-20T15:41:18.394Z] Field ".storage" in "firebase.json" is possibly invalid: should be array
+[debug] [2024-03-20T15:41:18.394Z] Field ".storage" in "firebase.json" is possibly invalid: should match some schema in anyOf
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  /home/vithesh/python projects/Sign-Language-Recognition-Using-Mediapipe-and-React
+
+Before we get started, keep in mind:
+
+  * You are initializing within an existing Firebase project directory
+
+[info] 
+=== Project Setup
+[info] 
+[info] First, let's associate this project directory with a Firebase project.
+[info] You can create multiple project aliases by running firebase use --add, 
+[info] but for now we'll just set up a default project.
+[info] 
+[debug] [2024-03-20T15:41:25.173Z] Using project from CLI flag: sign-language-ai-1d7e4
+[debug] [2024-03-20T15:41:25.177Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sign-language-ai-1d7e4 [none]
+[debug] [2024-03-20T15:41:26.033Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sign-language-ai-1d7e4 200
+[debug] [2024-03-20T15:41:26.033Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sign-language-ai-1d7e4 {"projectId":"sign-language-ai-1d7e4","projectNumber":"708724597887","displayName":"sign-language-ai","name":"projects/sign-language-ai-1d7e4","resources":{"hostingSite":"sign-language-ai-1d7e4","storageBucket":"sign-language-ai-1d7e4.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_a4df3ab0-8afc-4da9-ac7b-dbae6cff6265"}
+[info] i  Using project sign-language-ai-1d7e4 (sign-language-ai) 
+[info] 
+=== Hosting Setup
+[debug] [2024-03-20T15:41:26.079Z] >>> [apiv2][query] GET https://firebase.googleapis.com/v1beta1/projects/sign-language-ai-1d7e4 [none]
+[debug] [2024-03-20T15:41:26.549Z] <<< [apiv2][status] GET https://firebase.googleapis.com/v1beta1/projects/sign-language-ai-1d7e4 200
+[debug] [2024-03-20T15:41:26.550Z] <<< [apiv2][body] GET https://firebase.googleapis.com/v1beta1/projects/sign-language-ai-1d7e4 {"projectId":"sign-language-ai-1d7e4","projectNumber":"708724597887","displayName":"sign-language-ai","name":"projects/sign-language-ai-1d7e4","resources":{"hostingSite":"sign-language-ai-1d7e4","storageBucket":"sign-language-ai-1d7e4.appspot.com","locationId":"us-central"},"state":"ACTIVE","etag":"1_a4df3ab0-8afc-4da9-ac7b-dbae6cff6265"}
+[info] 
+[info] Your public directory is the folder (relative to your project directory) that
+[info] will contain Hosting assets to be uploaded with firebase deploy. If you
+[info] have a build process for your assets, use your build's output directory.
+[info] 
+[debug] [2024-03-20T15:42:02.015Z] >>> [apiv2][query] GET https://www.gstatic.com/firebasejs/releases.json [none]
+[debug] [2024-03-20T15:42:02.367Z] <<< [apiv2][status] GET https://www.gstatic.com/firebasejs/releases.json 200
+[debug] [2024-03-20T15:42:02.368Z] <<< [apiv2][body] GET https://www.gstatic.com/firebasejs/releases.json {"current":{"version":"10.9.0","browserURL":"https://www.gstatic.com/firebasejs/10.9.0/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/10.9.0/firebase.tgz"},"live":{"version":"10.9","browserURL":"https://www.gstatic.com/firebasejs/live/10.9/firebase.js","packageURL":"https://www.gstatic.com/firebasejs/live/10.9/firebase.tgz"},"components":{"analytics":"https://www.gstatic.com/firebasejs/10.9.0/firebase-analytics.js","app":"https://www.gstatic.com/firebasejs/10.9.0/firebase-app.js","app-check":"https://www.gstatic.com/firebasejs/10.9.0/firebase-app-check.js","auth":"https://www.gstatic.com/firebasejs/10.9.0/firebase-auth.js","auth/cordova":"https://www.gstatic.com/firebasejs/10.9.0/firebase-auth/cordova.js","auth/web-extension":"https://www.gstatic.com/firebasejs/10.9.0/firebase-auth/web-extension.js","functions":"https://www.gstatic.com/firebasejs/10.9.0/firebase-functions.js","firestore":"https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.js","firestore/lite":"https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore/lite.js","installations":"https://www.gstatic.com/firebasejs/10.9.0/firebase-installations.js","storage":"https://www.gstatic.com/firebasejs/10.9.0/firebase-storage.js","performance":"https://www.gstatic.com/firebasejs/10.9.0/firebase-performance.js","remote-config":"https://www.gstatic.com/firebasejs/10.9.0/firebase-remote-config.js","messaging":"https://www.gstatic.com/firebasejs/10.9.0/firebase-messaging.js","messaging/sw":"https://www.gstatic.com/firebasejs/10.9.0/firebase-messaging/sw.js","database":"https://www.gstatic.com/firebasejs/10.9.0/firebase-database.js","firestore.memory":"https://www.gstatic.com/firebasejs/10.9.0/firebase-firestore.memory.js"}}
+[info] ✔  Wrote public/index.html 
+[info] 
+[info] i  Detected a .git folder at /home/vithesh/python projects/Sign-Language-Recognition-Using-Mediapipe-and-React 
+[info] i  Authorizing with GitHub to upload your service account to a GitHub repository's secrets store. 
+[info] 
+[info] Visit this URL on this device to log in:
+[info] https://github.com/login/oauth/authorize?client_id=89cf50f02ac6aaed3484&state=393284371&redirect_uri=http%3A%2F%2Flocalhost%3A9005&scope=read%3Auser%20repo%20public_repo
+[info] 
+[info] Waiting for authentication...
+[debug] [2024-03-20T15:42:07.090Z] >>> [apiv2][query] POST https://github.com/login/oauth/access_token [none]
+[debug] [2024-03-20T15:42:07.090Z] >>> [apiv2][body] POST https://github.com/login/oauth/access_token [stream]
+[debug] [2024-03-20T15:42:07.756Z] <<< [apiv2][status] POST https://github.com/login/oauth/access_token 200
+[debug] [2024-03-20T15:42:07.756Z] <<< [apiv2][body] POST https://github.com/login/oauth/access_token {"access_token":"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","token_type":"bearer","scope":"read:user,repo"}
+[debug] [2024-03-20T15:42:07.764Z] >>> [apiv2][query] GET https://api.github.com/user [none]
+[debug] [2024-03-20T15:42:08.519Z] <<< [apiv2][status] GET https://api.github.com/user 200
+[debug] [2024-03-20T15:42:08.519Z] <<< [apiv2][body] GET https://api.github.com/user {"login":"vitheshshetty00","id":108149341,"node_id":"U_kgDOBnI6XQ","avatar_url":"https://avatars.githubusercontent.com/u/108149341?v=4","gravatar_id":"","url":"https://api.github.com/users/vitheshshetty00","html_url":"https://github.com/vitheshshetty00","followers_url":"https://api.github.com/users/vitheshshetty00/followers","following_url":"https://api.github.com/users/vitheshshetty00/following{/other_user}","gists_url":"https://api.github.com/users/vitheshshetty00/gists{/gist_id}","starred_url":"https://api.github.com/users/vitheshshetty00/starred{/owner}{/repo}","subscriptions_url":"https://api.github.com/users/vitheshshetty00/subscriptions","organizations_url":"https://api.github.com/users/vitheshshetty00/orgs","repos_url":"https://api.github.com/users/vitheshshetty00/repos","events_url":"https://api.github.com/users/vitheshshetty00/events{/privacy}","received_events_url":"https://api.github.com/users/vitheshshetty00/received_events","type":"User","site_admin":false,"name":"vithesh shetty","company":"Jyothy institute of technology","blog":"vitheshshetty.tech","location":"Bangalore ","email":null,"hireable":null,"bio":null,"twitter_username":null,"public_repos":24,"public_gists":0,"followers":7,"following":9,"created_at":"2022-06-24T18:10:40Z","updated_at":"2024-03-20T15:39:51Z","private_gists":0,"total_private_repos":13,"owned_private_repos":13,"disk_usage":232406,"collaborators":0,"two_factor_authentication":false,"plan":{"name":"pro","space":976562499,"collaborators":0,"private_repos":9999}}
+[info] 
+[info] ✔  Success! Logged into GitHub as vitheshshetty00 
+[info] 

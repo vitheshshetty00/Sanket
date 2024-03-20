@@ -1,5 +1,13 @@
 {
   "projects": {
-    "default": "sign-language-ai"
+    "default": "sign-language-ai-1d7e4",
+    "headers": [
+      {
+        "source": "*",
+        "headers": [
+          "Access-Control-Allow-Origin: http://localhost:3000"
+        ]
+      }
+    ]
   }
 }
