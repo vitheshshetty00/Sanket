@@ -14,14 +14,6 @@
     ]
   },
   "storage": {
-    "rules": "storage.rules",
-    "headers": [
-      {
-        "source": "*",
-        "headers": [
-          "Access-Control-Allow-Origin: http://localhost:3001"
-        ]
-      }
-    ]
+    "rules": "storage.rules"
   }
 }

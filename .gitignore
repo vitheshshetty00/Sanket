@@ -24,3 +24,5 @@ yarn-error.log*
 
 /Code For Training the Model/exported_model
 sign_language_dataset
+.firebase
+.github
