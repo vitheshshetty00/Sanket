@@ -26,3 +26,4 @@ yarn-error.log*
 sign_language_dataset
 .firebase
 .github
+.env

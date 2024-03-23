@@ -1,24 +1,20 @@
-# **Sign Language Recognition for Deaf and Dumb**
+# **Sanket.**
 
-![Banner](./public/banner.png)
-
-- Our sign language recognition project involved creating a custom dataset, preprocessing images, training a model, integrating with React, and hosting with Firebase. 
-
-- The result is a real-time sign language recognition application that recognizes a variety of sign language gestures.
-
-- Our Model is trained for 26 alphabets and 16 words of ASL and which are commonly used in general communication.
+Sanket is a real-time sign language recognition application. It's designed to recognize a variety of sign language gestures, making communication easier for those who use sign language.
 
 ## Features
 
-- Real-Time Recognition
+- **Real-Time Recognition:** Sanket can recognize sign language gestures in real-time, providing instant feedback to the user.
 
-- Easy-to-Use Interface
+- **Easy-to-Use Interface:** The application is designed with simplicity in mind, making it easy for anyone to use.
 
-- Adaptive Learning
+- **Adaptive Learning:** Sanket learns from each interaction, improving its accuracy over time.
 
-- High Accuracy
+- **High Accuracy:** Our model is trained on a custom dataset, ensuring high accuracy in gesture recognition.
 
-- Real Time User Progress Data
+- **Real Time User Progress Data:** Users can track their progress in real-time, helping them improve their sign language skills.
+
+Our model is trained for 26 alphabets and 16 words of American Sign Language (ASL), which are commonly used in general communication.
 
 ## Tech Stack
 
@@ -35,54 +31,26 @@
 
 - MediaPipe
 
-**NPM Packages:**
+## Future Enhancements
 
-- @mediapipe/drawing_utils
-- @mediapipe/hands
-- @mediapipe/tasks-vision
-- @redux-devtools/extension
-- chart.js
-- firebase
-- js-cookie
-- react-chartjs-2
-- react-icons
-- react-redux
-- react-router-dom
-- react-toastify
-- react-webcam
-- redux
-- redux-thunk
-- uuid
+- **Complete Dashboard Feature:** We plan to enhance the dashboard feature to provide more detailed progress tracking and user statistics.
 
-## Team Members
+- **Sign Language Learning Page:** We aim to add a learning page that will serve as a dictionary for sign language. This will help users learn and understand sign language more effectively.
 
-- So this project is a group project done in collaboration with the members mentioned below.
+- **More Gestures:** We plan to expand the model's capabilities to recognize more gestures, making the application more versatile and useful.
 
-| Name            | Email-id                      |
-| :-------------- | :---------------------------- |
-| Shubham More    | `shubhamp1251@gmail.com`      |
-| Sameer Metkar   | `sameermetkar@gmail.com`      |
-| Omkar Mandavkar | `omkarmandavkar000@gmail.com` |
-| Durgesh Kolhe   | `dkolhe985@gmail.com`         |
+- **User Customization:** We aim to add more customization options for users, allowing them to tailor the application to their specific needs.
 
-## Project Details
 
-- **Our Project Report:** [Report.pdf](https://drive.google.com/file/d/16juuwsmj64JJ915ghxV7OFlqKyAlTQpB/view?usp=share_link)
+## Installation & Usage Instructions
 
-- **Published Paper:** [Paper.pdf](https://drive.google.com/file/d/1QAuSWb8op7bFkqhItBbyoqwBbxWbSZvw/view?usp=share_link)
+1. Clone the repository using `git clone https://github.com/vitheshshetty00/Sanket.git`
+2. Move to the appropriate directory: `cd Sanket`
+3. Install dependencies with `npm install`
+4. setup firebase by creating a project in firebase and adding the firebase config in `src/firebase.js`
+5. Start the server with `npm start`
+6. Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-- **Dataset Link:** [Sign_Dataset](https://drive.google.com/drive/folders/1LUUknqqRNHAmIZYrcgo-4n2HrM37uFa3?usp=share_link)
-
-- **Gesture Recogition Documentation:** [Mediapipe](https://developers.google.com/mediapipe/solutions/vision/gesture_recognizer)
-
-- **The Model Training File is located in root folder**
-
-## Authors
-
-- [@shubham-more](https://github.com/shubhammore1251/)
-- [@sameer-metkar](https://github.com/sameermetkar/)
-- [@omkar-mandavkar](https://github.com/omkarmandavkar/)
-- [@durgesh-kolhe](https://github.com/Durgesh240)
 
 ## Acknowledgements
 
@@ -90,24 +58,3 @@
 - [mediapipe](https://developers.google.com/mediapipe)
 - [Firebase](https://firebase.google.com/)
 - [NPM](https://www.npmjs.com/)
-
-## Screenshots
-
-![Hello Image](./public/screenshots/Hello.jpg)
-
-![Meet Image](./public/screenshots/Meet.jpg)
-
-![Deaf Image](./public/screenshots/Deaf.jpg)
-
-![Bye Image](./public/screenshots/Bye.jpg)
-
-![D Image](./public/screenshots/D.jpg)
-
-![Dashboard Image](./public/screenshots/dasboard.jpeg)
-
-## Support
-
-For support, contact
-
-- email: shubhamp1251@gmail.com
-- LinkedIn: [Shubham More](https://www.linkedin.com/in/shubham-more1251/)
