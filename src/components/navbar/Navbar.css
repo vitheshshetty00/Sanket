@@ -19,12 +19,28 @@
     margin-right: 2rem;
 }
 
+.signlang_navlinks_logo a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
 .signlang_navlinks_logo .logo{
     width: 100px;
     height: 90px;
     margin-left: 5rem;
 }
 
+.signlang_navlinks_logo .logo-text{
+    color: #10cfe9;
+    font-family: var(--font-family);
+    font-weight: 900;
+    font-size: 35px;
+    letter-spacing: 2px;
+    line-height: 25px;
+    text-transform: capitalize;
+}
 .signlang_navlinks_container {
     display: flex;
     flex: 1;

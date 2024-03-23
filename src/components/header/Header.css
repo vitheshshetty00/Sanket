@@ -43,6 +43,14 @@
     height: 500px;
 }
 
+.signlang__header-image h1 {
+    font-family: var(--font-family);
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+}
+
 @media screen and (max-width: 1050px) {
     .signlang__header {
         flex-direction: column;
@@ -76,6 +84,7 @@
         width: 300px;
         height: 300px;
     }
+
     
     
 }

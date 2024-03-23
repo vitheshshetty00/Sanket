@@ -15,6 +15,7 @@ const Header = () => {
     </div>
     <div className="signlang__header-image">
       <img src={SignHand} alt='SIGN-HAND'/>
+      <h1 >Sanket.</h1>
     </div>
   </div>
   )
